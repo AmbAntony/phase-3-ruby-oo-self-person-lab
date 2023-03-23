@@ -40,8 +40,7 @@ class Person
 end
 ```
 
-We can also define this particular instance method using a macro (which creates
-the getter method for us):
+We can also define this particular instance method using a macro (which creates the getter method for us):
 
 ```rb
 class Person
@@ -62,8 +61,7 @@ getter and/or setter methods.
 
 - `Person.new(name)`: takes an argument of a name and saves it to the object.
   The person's name _should not_ be able to change after initialization. When a
-  new person is created, they should have the following attributes in addition
-  to their name (saved to instance variables):
+  new person is created, they should have the following attributes in addition to their name (saved to instance variables):
 
   - `@bank_account` with an initial value of 25
   - `@happiness` with an initial value of 8
